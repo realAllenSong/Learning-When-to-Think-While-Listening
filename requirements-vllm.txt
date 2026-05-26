@@ -1,0 +1,6 @@
+# Separate serving environment for Qwen2.5-Omni controller rollouts.
+# The official vLLM-Omni quickstart currently uses Python 3.12 with
+# vllm==0.18.0 plus the vllm-omni package.
+ninja==1.13.0
+vllm==0.18.0
+vllm-omni

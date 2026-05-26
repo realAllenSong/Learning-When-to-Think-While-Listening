@@ -1,0 +1,21 @@
+# Dedicated ms-swift environment for Qwen2.5-Omni SFT.
+#
+# This environment supports:
+# - `swift sft`
+# - LoRA merge helpers for Qwen2.5-Omni
+--index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://pypi.org/simple
+
+torch==2.10.0+cu128
+torchaudio==2.10.0+cu128
+torchvision==0.25.0+cu128
+accelerate==1.13.0
+librosa==0.11.0
+soundfile==0.13.1
+pillow==11.3.0
+sentencepiece==0.2.1
+peft==0.18.1
+# Official Qwen Omni helper package used by Qwen2.5-Omni loading paths in ms-swift.
+# The decord extra matches Qwen's recommended install path for media utilities.
+qwen-omni-utils[decord]
+ms-swift>=4.0,<5.0

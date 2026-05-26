@@ -1,0 +1,14 @@
+# Training environment for GRPO actor update and local judge.
+# Qwen2.5-Omni currently needs the preview transformers branch.
+--index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://pypi.org/simple
+
+torch==2.10.0+cu128
+torchaudio==2.10.0+cu128
+accelerate==1.13.0
+librosa==0.11.0
+soundfile==0.13.1
+pillow==11.3.0
+sentencepiece==0.2.1
+peft==0.18.1
+git+https://github.com/huggingface/transformers@v4.51.3-Qwen2.5-Omni-preview
