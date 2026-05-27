@@ -153,10 +153,13 @@ terms.
 If you use this code or the benchmarks, please cite:
 
 ```bibtex
-@article{song2026learning,
-  title={Learning When to Think While Listening in Large Audio-Language Models},
-  author={Song, Zhiyuan and Zhao, Weici and Xiao, Yang and Yu, Suhao and Zhu, Cheng and Gu, Jiatao},
-  journal={arXiv preprint},
-  year={2026}
+@misc{song2026learningthinklisteninglarge,
+      title={Learning When to Think While Listening in Large Audio-Language Models}, 
+      author={Zhiyuan Song and Weici Zhao and Yang Xiao and Suhao Yu and Cheng Zhu and Jiatao Gu},
+      year={2026},
+      eprint={2605.27190},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.27190}, 
 }
 ```
