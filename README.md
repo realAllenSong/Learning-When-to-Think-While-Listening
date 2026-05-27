@@ -1,8 +1,8 @@
 # Learning When to Think While Listening
 
-This repository contains the training code for the paper:
+[![arXiv](https://img.shields.io/badge/arXiv-2605.27190-b31b1b.svg)](https://arxiv.org/abs/2605.27190)
 
-**Learning When to Think While Listening in Large Audio-Language Models**
+Official repo for **Learning When to Think While Listening in Large Audio-Language Models**.
 
 The code trains a Qwen2.5-Omni-7B controller that operates over a visible
 wait-think-answer action space:
