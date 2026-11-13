@@ -87,7 +87,7 @@ def build_omni_chunk_prompt(
     version: str = DEFAULT_POLICY_PROMPT_VERSION,
 ) -> str:
     _validate_version(version)
-    stem = _question_stem_for_think(question)
+    stem = _question_stem_for_think(question) if question_visible else ""
     return (
         f"Controller call for audio unit {chunk_index + 1} of {total_chunks}.\n"
         f"{_question_block(question, question_visible)}"
